@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
   new_data = {}
-  pigeon_data.each {|attribute, descriptor|
+  data.each {|attribute, descriptor|
     descriptor.each {|sub_attribute, namelist| 
       namelist.each {|name| 
         if !new_data[name]
